@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  ICONS, CSS  -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>
+        Bixin Zhang
+    </title>
+    <link rel="icon" href="assets/img/tab2.png" type="image/x-icon" />
+</head>
+
+<body>
+    <!--  HEADER  -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Bixin Zhang</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Code</a></li>
+                    <li class="nav__item"><a href="assets/pdf/resumeUpdated.pdf" class="nav__link">Resume</a></li>
+
+                    <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--  HOME  -->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">👋Hello, I'm Bixin.</h1>
+                    <p class="home__description">I'm currently a sophomore
+                        studying CompSci at Cornell University. I am passionate
+                        about building things, which leads me to be intrigued
+                        by art, technology, and the ways they impact people.
+                    </p>
+                    <p class="home__description">
+                        During the school year, I'm a backend developer on Cornell
+                        Course Management System <a href="https://www.cs.cornell.edu/Projects/cms/cmsx/">
+                            CMSX</a> , and a mentor on Women in
+                        Computing at Cornell<a href="https://wicc.cornell.edu">
+                            WICC</a>.
+                    </p>
+                    <p class="home__description">
+                        Besides school, I am a tech member
+                        <a href="https://github.com/DreamCorpsInternational"> @DreamCorps,
+                        </a> an international non-profit aiming to provide
+                        education in rural China. I also like to make <a href="arts.html"> art</a>, ski,
+                        random dance to kpop music, and enjoy food.
+                    </p>
+                    <p class="home__description">
+                        Feel free to ramble round and see my work. Nice to meet you!
+                    </p>
+                </div>
+
+                <div class="home__img">
+                    <img src="assets/img/test.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--  CODE, PROJECTS  -->
+        <section class="decoration section bd-container" id="work">
+            <h2 class="section-title"> Code </h2>
+            <div class="decoration__container bd-grid">
+                <div class="decoration__data">
+                    <img src="assets/img/cmsx.png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">CMSX</h3>
+                    <div class="decoration__content">
+                        <p>
+                            CMSX allows both students and instructors to manage assignment and grades related
+                            activities.The codebase uses Java with JPA/MySQL for the backend.
+                        </p>
+                    </div>
+                    <a href="http://www.cs.cornell.edu/Projects/cms/" class="button button-link">More info</a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/Mahjong.png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Mahjong</h3>
+                    <div class="decoration__content">
+                        <p>
+                            A multi-player imperfect-information game with complex playing/scoring rules and
+                            rich hidden information implemented in OCaml.
+                        </p>
+                    </div>
+
+                    <a href="https://github.com/zbcszr/Mahjong" class="button button-link">View Repo</a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/cifar.png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Cifar</h3>
+                    <div class="decoration__content">
+                        <p>
+                            Cifar-10 CNN implementation using TensorFlow library with 20% error.
+
+                        </p>
+                    </div>
+                    <a href="#" class="button button-link">View repo</a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/artforchange.png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">ArtForChange</h3>
+                    <div class="decoration__content">
+                        <p>
+                            To prevent COVID-19 to damage fundrasing auction,
+                            a web app that displays the status of artworks,
+                            manages artworks, and recieves bids from users through forms.
+                            Frontend in HTML/CSS/JavaScript, backend in PHP/PostgreSQL.
+                        </p>
+                    </div>
+                    <a href="#" class="button button-link">View repo</a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/tab_1.png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Mahjong AI</h3>
+                    <div class="decoration__content">
+                        <p>
+                            Uses Hidden Markov Model to guess the opponents hand tile,
+                            and make decision based on the relative valud of self's hand
+                            and opponents' hands.
+                        </p>
+                    </div>
+                    <a href="#" class="button button-link">View repo</a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/driving.png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Autonomous Driving</h3>
+                    <div class="decoration__content">
+                        <p>
+                            A pytorch implementation to train the conditional
+                            imitation learning policy in "Visual-based Autonomous
+                            Driving Deployment from a Stochastic and Uncertainty-aware Perspective".
+                        </p>
+                    </div>
+                    <a href="#" class="button button-link">View repo</a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/eathaca.jpg" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Eathaca</h3>
+                    <div class="decoration__content">
+                        <p>
+                            An app to help student keep track of freshness of ingredents
+                            and recommand menu based on ingredents. Developed with
+                            Android Studio/FireBase.
+                        </p>
+                    </div>
+                    <a href="#" class="button button-link">View repo</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--  FOOTER  -->
+        <footer class="footer section">
+            <h5 class="footer__title">
+                Connect with me via
+                <a href="#" class="footer__social"><i class='bx bxl-github '></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" class="footer__social"><i class='bx bx-envelope'></i></a>
+            </h5>
+            <p class="footer__copy">2020 Made by Bixin &#169; with HTML/JavaScript</p>
+        </footer>
+
+        <!--  SCROLL REVEAL  -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--  MAIN.JS  -->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
